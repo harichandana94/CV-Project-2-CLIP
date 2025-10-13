@@ -1,0 +1,52 @@
+[
+  {
+    "image_index": 1,
+    "image_url": "https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg",
+    "best_single_word": "sunset",
+    "cosine_single_word": 0.2656,
+    "best_structured_caption": "A photo of a sunset",
+    "cosine_structured": 0.2788,
+    "best_arbitrary_caption": "An image of an orange sunset with a silhouetted tree with a flock of birds.",
+    "cosine_arbitrary": 0.3608
+  },
+  {
+    "image_index": 2,
+    "image_url": "https://images.pexels.com/photos/825947/pexels-photo-825947.jpeg",
+    "best_single_word": "dog",
+    "cosine_single_word": 0.2827,
+    "best_structured_caption": "A photo of a dog",
+    "cosine_structured": 0.2925,
+    "best_arbitrary_caption": "An image of a studio portrait of a dog on a white background high key lighting.",
+    "cosine_arbitrary": 0.3486
+  },
+  {
+    "image_index": 3,
+    "image_url": "https://images.pexels.com/photos/34044163/pexels-photo-34044163.jpeg",
+    "best_single_word": "mist",
+    "cosine_single_word": 0.2688,
+    "best_structured_caption": "A photo of a foggy",
+    "cosine_structured": 0.2957,
+    "best_arbitrary_caption": "A photograph of a foggy forest with two unmade beds in autumn.",
+    "cosine_arbitrary": 0.3662
+  },
+  {
+    "image_index": 4,
+    "image_url": "https://live.staticflickr.com/840/43380549381_004601c7ac_h.jpg",
+    "best_single_word": "dog",
+    "cosine_single_word": 0.2537,
+    "best_structured_caption": "A photo of a cartoon",
+    "cosine_structured": 0.2676,
+    "best_arbitrary_caption": "A photograph of a small white dog cartoon style.",
+    "cosine_arbitrary": 0.3457
+  },
+  {
+    "image_index": 5,
+    "image_url": "https://live.staticflickr.com/2404/2020522557_d1aa0a1066_k.jpg",
+    "best_single_word": "beds",
+    "cosine_single_word": 0.2825,
+    "best_structured_caption": "A photo of a bedroom",
+    "cosine_structured": 0.2966,
+    "best_arbitrary_caption": "A photograph of a hotel room with two unmade beds facing the camera.",
+    "cosine_arbitrary": 0.3347
+  }
+]
