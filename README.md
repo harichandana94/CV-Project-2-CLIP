@@ -8,7 +8,7 @@ But as soon as we started, it became clear: CLIP has opinions. It doesn’t just
 
 Our early attempts were rough. One word felt too vague, another too specific. Sometimes we nailed it, other times CLIP stubbornly disagreed. We weren’t just tuning a model; we were trying to speak its language.
 
-# Where the Fun Began
+## Where the Fun Began
 
 It turns out, CLIP is picky — almost too picky. One wrong adjective and your score tanks. But tweak the phrasing just a little — add “a photo of,” change “dog” to “puppy,” or throw in a poetic twist — and suddenly CLIP believes you understand its language.
 
