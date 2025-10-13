@@ -24,3 +24,14 @@ Finally, I tested a longer caption:
 “An image of a studio portrait of a dog on a white background, high-key lighting.”
 
 That one finally worked 0.3486, my best score for this image. I learned that CLIP actually prefers clear and straightforward captions.
+
+## The Forest That Confused and Surprised Me
+The third image looked like something out of a dream a foggy forest where the trees faded into the mist. I began with the word “mist” (0.2688), which felt right for the mood. Then I tried a few others like “forest,” “fog,” and “woods,” but none of them really beat that first choice.
+
+When I moved to captions, “A photo of a foggy” (0.2957) sounded awkward but still got a slightly higher score, which was funny because it wasn’t even a complete phrase. It showed how literal CLIP can be sometimes it doesn’t care about grammar as long as the keywords match the image.
+
+Then came the real surprise. The best caption turned out to be:
+
+“A photograph of a foggy forest with two unmade beds in autumn.”
+
+Even though there were obviously no beds in the picture, this caption scored the highest 0.3662. That’s when I realized CLIP doesn’t always focus on logical accuracy. It looks for visual and contextual overlap in the embeddings, even if the sentence doesn’t make sense.
