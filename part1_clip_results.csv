@@ -1,0 +1,6 @@
+image_index,image_url,best_single_word,cosine_single_word,best_structured_caption,cosine_structured,best_arbitrary_caption,cosine_arbitrary
+1,https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg,sunset,0.2658,A photo of a sunset,0.2787,An image of an orange sunset with a silhouetted tree with a flock of birds.,0.361
+2,https://images.pexels.com/photos/825947/pexels-photo-825947.jpeg,dog,0.2825,A photo of a dog,0.2922,An image of a studio portrait of a dog on a white background high key lighting.,0.3486
+3,https://images.pexels.com/photos/34044163/pexels-photo-34044163.jpeg,mist,0.2688,A photo of a foggy,0.2956,A photograph of a foggy forest with two unmade beds in autumn.,0.3659
+4,https://live.staticflickr.com/840/43380549381_004601c7ac_h.jpg,dog,0.2535,A photo of a cartoon,0.2675,A photograph of a small white dog cartoon style.,0.3458
+5,https://live.staticflickr.com/2404/2020522557_d1aa0a1066_k.jpg,beds,0.2826,A photo of a bedroom,0.2968,A photograph of a hotel room with two unmade beds facing the camera.,0.3347
