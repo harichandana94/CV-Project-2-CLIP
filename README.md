@@ -1,4 +1,4 @@
-##My CLIP-Challange##
+#My CLIP-Challange#
 
 When I first heard that CLIP could “understand” both images and text, I was amazed. A model that looks at a photo of a cat and instantly links it to the word cat? That sounded almost magical — until I tried it myself.
 
