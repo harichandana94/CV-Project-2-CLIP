@@ -14,7 +14,7 @@ It turns out, CLIP is picky — almost too picky. One wrong adjective and your s
 
 That’s when we realized: this wasn’t just a coding project. It was a game of translation, creativity, and a little bit of mind-reading between human and machine.
 
-## The Portrait That Rewarded Simplicity
+## Image 2: The Portrait That Rewarded Simplicity
 The next image was a calm black-and-white picture of a dog sitting against a white background, looking straight into the camera. I started off with the word “dog” (0.2827) pretty basic, but it actually worked better than I expected. Then I tried changing it to “puppy,” “hound,” and “pitbull,” thinking being specific might help, but the scores barely changed. Even “portrait” didn’t make much difference.
 
 I thought maybe adding more detail would help, so I tried things like “black-and-white dog,” “studio portrait,” and “dog on white background.” The scores went up a little, but not much. It felt like CLIP was happy with simple and direct descriptions.
@@ -25,7 +25,7 @@ Finally, I tested a longer caption:
 
 That one finally worked 0.3486, my best score for this image. I learned that CLIP actually prefers clear and straightforward captions.
 
-## The Forest That Confused and Surprised Me
+## Image 3: The Forest That Confused and Surprised Me
 The third image looked like something out of a dream a foggy forest where the trees faded into the mist. I began with the word “mist” (0.2688), which felt right for the mood. Then I tried a few others like “forest,” “fog,” and “woods,” but none of them really beat that first choice.
 
 When I moved to captions, “A photo of a foggy” (0.2957) sounded awkward but still got a slightly higher score, which was funny because it wasn’t even a complete phrase. It showed how literal CLIP can be sometimes it doesn’t care about grammar as long as the keywords match the image.
@@ -35,3 +35,13 @@ Then came the real surprise. The best caption turned out to be:
 “A photograph of a foggy forest with two unmade beds in autumn.”
 
 Even though there were obviously no beds in the picture, this caption scored the highest 0.3662. That’s when I realized CLIP doesn’t always focus on logical accuracy. It looks for visual and contextual overlap in the embeddings, even if the sentence doesn’t make sense.
+
+## Image 4: The Puppy That Taught Me About Style
+The fourth image was a small white puppy drawn in a cute cartoon style. I started with “dog” (0.2537) not bad, but it didn’t really capture the playful look. Then I tried words like “cartoon” and “illustration,” and CLIP responded better, realizing it wasn’t a real photo.
+
+Finally, I wrote:
+
+“A photograph of a small white dog cartoon style.”
+
+That caption scored 0.3457, the highest for this image. It made me realize CLIP doesn’t just care about what’s in the picture it also pays attention to the style it’s shown in.
+
