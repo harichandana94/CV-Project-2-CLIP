@@ -1,3 +1,5 @@
+##My CLIP-Challange##
+
 When I first heard that CLIP could “understand” both images and text, I was amazed. A model that looks at a photo of a cat and instantly links it to the word cat? That sounded almost magical — until I tried it myself.
 
 Very quickly, I realized something fascinating: CLIP isn’t perfect. It can be convinced, confused, or even tricked. The more I experimented, the more it felt like playing a strange game — me on one side, the model on the other — both trying to agree on what a picture means.
