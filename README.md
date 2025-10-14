@@ -5,7 +5,7 @@
 The Day We Started Speaking CLIP's Language
 It began with what seemed like a straightforward task: find the perfect words that make an AI understand images the way humans do. Little did we know we were about to become translators between human perception and machine vision.
 
-Armed with coffee and curiosity, our team embarked on a journey with CLIP, OpenAI's vision-language model that promised to bridge the gap between pixels and words. The mission sounded simple: find text descriptions that achieve the highest similarity scores with five given images. As we quickly discovered, CLIP doesn’t just see images, it interprets them through patterns, training data, and mathematical relationships, weighing every detail from tone to phrasing to how “human” a description sounds.
+Armed with curiosity and a sense of wonder, our team embarked on a journey with CLIP, OpenAI's vision-language model that promised to bridge the gap between pixels and words. The mission sounded simple: find text descriptions that achieve the highest similarity scores with five given images. As we quickly discovered, CLIP doesn’t just see images, it interprets them through patterns, training data, and mathematical relationships, weighing every detail from tone to phrasing to how “human” a description sounds.
 
 ## Learning to Speak CLIP's Language
 
@@ -27,7 +27,7 @@ Not bad… but not thrilling either. We tried “A photo of a sunset,” nudging
   <a href="https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg">Image Link</a>
 </p>
 
-Boom — 0.3608. Color, composition, and movement suddenly mattered. CLIP rewarded detail, and we were hooked.
+Boom — 0.3608. Color, composition, and movement suddenly mattered. CLIP rewarded detail, and we were surprised.
 
 
 
