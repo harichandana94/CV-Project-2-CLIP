@@ -8,7 +8,7 @@ It began with what seemed like a straightforward task: find the perfect words th
 Armed with coffee and curiosity, our team embarked on a journey with CLIP, OpenAI's vision-language model that promised to bridge the gap between pixels and words. The mission sounded simple: find text descriptions that achieve the highest similarity scores with five given images. But as we quickly discovered, CLIP doesn't just see images—it interprets them through a lens of patterns, training data, and mathematical relationships that often surprised us.
 
 ## The Early Stages and Where the Fun Began
-Our early attempts were rough. One word felt too vague, another too specific. Sometimes we nailed it, other times CLIP stubbornly disagreed. We quickly realized that this wasn’t just a matter of picking obvious words; we were trying to speak the model’s language.
+Our early attempts were rough. One word felt too vague, another too specific. Sometimes we nailed it, other times CLIP stubbornly disagreed. We quickly realized that this wasn’t just a matter of picking obvious words; we were trying to speak the model’s language. 
 
 It turns out, CLIP is picky—almost too picky. One wrong adjective and your score tanks. But tweak the phrasing just a little—add “a photo of,” change “dog” to “puppy,” or throw in a poetic twist—and suddenly CLIP believes you understand its language.
 
