@@ -5,16 +5,13 @@
 The Day We Started Speaking CLIP's Language
 It began with what seemed like a straightforward task: find the perfect words that make an AI understand images the way humans do. Little did we know we were about to become translators between human perception and machine vision.
 
-Armed with coffee and curiosity, our team embarked on a journey with CLIP, OpenAI's vision-language model that promised to bridge the gap between pixels and words. The mission sounded simple: find text descriptions that achieve the highest similarity scores with five given images. But as we quickly discovered, CLIP doesn't just see images—it interprets them through a lens of patterns, training data, and mathematical relationships that often surprised us.
+Armed with coffee and curiosity, our team embarked on a journey with CLIP, OpenAI's vision-language model that promised to bridge the gap between pixels and words. The mission sounded simple: find text descriptions that achieve the highest similarity scores with five given images. As we quickly discovered, CLIP doesn’t just see images, it interprets them through patterns, training data, and mathematical relationships, weighing every detail from tone to phrasing to how “human” a description sounds.
 
-## The Early Stages and Where the Fun Began
-Our early attempts were rough. One word felt too vague, another too specific. Sometimes we nailed it, other times CLIP stubbornly disagreed. We quickly realized that this wasn’t just a matter of picking obvious words; we were trying to speak the model’s language. 
+## Learning to Speak CLIP's Language
 
-It turns out, CLIP is picky—almost too picky. One wrong adjective and your score tanks. But tweak the phrasing just a little—add “a photo of,” change “dog” to “puppy,” or throw in a poetic twist—and suddenly CLIP believes you understand its language.
+Our early experiments revealed CLIP's unique personality. Simple word choices often fell flat, while subtle phrasing changes made all the difference. We discovered that adding "a photo of" before nouns, including specific colors, and describing spatial relationships consistently boosted scores.
 
-After some trial and error, we discovered patterns in how it scored captions. Including colors, spatial relationships, and style consistently boosted similarity, while abstract or emotional descriptors often didn’t. Each image became a puzzle, and each caption a key. What began as a technical experiment quickly evolved into a game of translation, creativity, and a little bit of mind-reading between human and machine.
-
-
+Abstract or emotional language rarely helped, CLIP preferred concrete, visual details. What began as technical testing quickly became a fascinating translation exercise between human intuition and AI pattern recognition. Each image became a puzzle where we had to think like the model to find the perfect caption key.
 
 ### Image 1: The Sunset That Spoke in Color
 I started with what I thought would be easy: a warm countryside sunset, a silhouetted tree, and birds flying across the orange sky. “Sunset,” I typed. Score: 0.2656.
