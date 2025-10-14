@@ -50,23 +50,23 @@ Finally, the longer caption:
 Score: 0.3486. Clear, structured captions win. Lesson learned.
 
 ### The Forest That Confused and Surprised Me
-The third image looked like something out of a dream a foggy forest where the trees faded into the mist. I began with the word “mist” (0.2688), which felt right for the mood. Then I tried a few others like “forest,” “fog,” and “woods,” but none of them really beat that first choice.
+A foggy forest, trees fading into mist. I started with “mist” (0.2688) and tried “forest,” “fog,” and “woods,” but none surpassed it.
 
-When I moved to captions, “A photo of a foggy” (0.2957) sounded awkward but still got a slightly higher score, which was funny because it wasn’t even a complete phrase. It showed how literal CLIP can be sometimes it doesn’t care about grammar as long as the keywords match the image.
+“A photo of a foggy…” (0.2957) — awkward, incomplete, but slightly better. CLIP doesn’t care about grammar; keywords matter more than elegance.
+
+
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/1fc5f1f8-b793-43f2-aefe-06c22088dc5b" />
   <p align="center">
   <a href="https://images.pexels.com/photos/34044163/pexels-photo-34044163.jpeg">Image Link</a>
 </p>
 
-
-
-
-Then came the real surprise. The best caption turned out to be:
+Then the shocker:
 
 “A photograph of a foggy forest with two unmade beds in autumn.”
 
-Even though there were obviously no beds in the picture, this caption scored the highest 0.3662. That’s when I realized CLIP doesn’t always focus on logical accuracy. It looks for visual and contextual overlap in the embeddings, even if the sentence doesn’t make sense.
+Score: 0.3662. There were no beds! CLIP was rewarding semantic overlap in embeddings, not literal correctness. That’s when we truly grasped its quirks.
+
 
 ### The Puppy That Taught Me About Style
 The fourth image was a small white puppy drawn in a cute cartoon style. I started with “dog” (0.2537) not bad, but it didn’t really capture the playful look. Then I tried words like “cartoon” and “illustration,” and CLIP responded better, realizing it wasn’t a real photo.
