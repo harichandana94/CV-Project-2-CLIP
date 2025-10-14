@@ -19,7 +19,7 @@ The first image showed a warm countryside sunset the sky glowing orange, a singl
                                     <img width="679" height="452" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/718165fe-e231-4e8f-8d60-57c90bfadc32" />
 
 
-Finally, I added more description to capture the full scene:
+Finally, I added more description to capture the full scene: 
 
 “An image of an orange sunset with a silhouetted tree with a flock of birds.”
 
