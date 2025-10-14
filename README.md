@@ -10,18 +10,18 @@ Our early attempts were rough. One word felt too vague, another too specific. So
 
 ## Where the Fun Began
 
-It turns out, CLIP is picky — almost too picky. One wrong adjective and your score tanks. But tweak the phrasing just a little — add “a photo of,” change “dog” to “puppy,” or throw in a poetic twist — and suddenly CLIP believes you understand its language.
+It turns out, CLIP is picky  almost too picky. One wrong adjective and your score tanks. But tweak the phrasing just a little — add “a photo of,” change “dog” to “puppy,” or throw in a poetic twist — and suddenly CLIP believes you understand its language.
 
 That’s when we realized: this wasn’t just a coding project. It was a game of translation, creativity, and a little bit of mind-reading between human and machine.
 
 ## Image 1: The Sunset That Spoke in Color
-The first image showed a warm countryside sunset — the sky glowing orange, a single tree standing in silhouette, and a small flock of birds flying home. I started with the simple word “sunset” (0.2656) — short, accurate, but not too exciting for CLIP. Then I tried “A photo of a sunset” (0.2788), which did slightly better, proving the model likes clear, structured phrases.
+The first image showed a warm countryside sunset the sky glowing orange, a single tree standing in silhouette, and a small flock of birds flying home. I started with the simple word “sunset” (0.2656) short, accurate, but not too exciting for CLIP. Then I tried “A photo of a sunset” (0.2788), which did slightly better, proving the model likes clear, structured phrases.
 
 Finally, I added more description to capture the full scene:
 
 “An image of an orange sunset with a silhouetted tree with a flock of birds.”
 
-That caption reached the highest score — 0.3608. It showed me that CLIP connects better when I include details like color and movement.
+That caption reached the highest score 0.3608. It showed me that CLIP connects better when I include details like color and movement.
 
 ## Image 2: The Portrait That Rewarded Simplicity
 The next image was a calm black-and-white picture of a dog sitting against a white background, looking straight into the camera. I started off with the word “dog” (0.2827) pretty basic, but it actually worked better than I expected. Then I tried changing it to “puppy,” “hound,” and “pitbull,” thinking being specific might help, but the scores barely changed. Even “portrait” didn’t make much difference.
