@@ -14,7 +14,7 @@ Our early experiments revealed CLIP's unique personality. Simple word choices of
 Abstract or emotional language rarely helped, CLIP preferred concrete, visual details. What began as technical testing quickly became a fascinating translation exercise between human intuition and AI pattern recognition. Each image became a puzzle where we had to think like the model to find the perfect caption key.
 
 ### The Sunset That Spoke in Color
-I started with what I thought would be easy: a warm countryside sunset, a silhouetted tree, and birds flying across the orange sky. “Sunset,” I typed. Score: 0.2656.
+Started with what we thought would be easy: a warm countryside sunset, a silhouetted tree, and birds flying across the orange sky. “Sunset,” we typed. Score: 0.2656.
 
 Not bad… but not thrilling either. We tried “A photo of a sunset,” nudging the score slightly to 0.2788. Then we got ambitious:
 
