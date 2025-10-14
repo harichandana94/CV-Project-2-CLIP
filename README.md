@@ -45,3 +45,11 @@ Finally, I wrote:
 
 That caption scored 0.3457, the highest for this image. It made me realize CLIP doesn’t just care about what’s in the picture it also pays attention to the style it’s shown in.
 
+## The Room That Valued Realism
+The last image showed a slightly messy hotel room two unmade beds, an ironing board, and soft light coming from the window. I started with “beds” (0.2825), which was fine but didn’t really describe the whole scene. Then I tried “bedroom” (0.2966), which felt closer and scored a bit higher.
+
+Finally, I wrote a more complete caption:
+
+“A photograph of a hotel room with two unmade beds facing the camera.”
+
+That one gave me the best score 0.3347. It showed that CLIP performs best when the caption matches what’s actually in the image. Being realistic and specific about what you see goes a long way.
