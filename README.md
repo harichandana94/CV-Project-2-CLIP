@@ -20,6 +20,7 @@ The first image showed a warm countryside sunset the sky glowing orange, a singl
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/718165fe-e231-4e8f-8d60-57c90bfadc32" />
 </p>
 
+[Image Link](https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg)
 
 
 Finally, I added more description to capture the full scene: 
