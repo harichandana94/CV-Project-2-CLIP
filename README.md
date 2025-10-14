@@ -155,19 +155,19 @@ Even with an engineered, semantically perfect pairing, our top similarity score 
 
 After diving deep into CLIP with five very different images and pushing it to its limits, here’s what stood out to us:
 
-CLIP is extremely literal. It rewarded captions that described exactly what was visible in the image. Poetic phrasing, mood words, or abstract ideas didn’t improve scores.
+**CLIP is extremely literal.** It rewarded captions that described exactly what was visible in the image. Poetic phrasing, mood words, or abstract ideas didn’t improve scores.
 
-Details matter, but the right ones. Adding color, lighting, and spatial relationships consistently boosted similarity, while extra adjectives that weren’t visually grounded often didn’t help.
+**Details matter, but the right ones.** Adding color, lighting, and spatial relationships consistently boosted similarity, while extra adjectives that weren’t visually grounded often didn’t help.
 
-Style influences perception. CLIP can tell the difference between a photo, illustration, or cartoon, and captions that matched the image’s style scored higher.
+**Style influences perception.** CLIP can tell the difference between a photo, illustration, or cartoon, and captions that matched the image’s style scored higher.
 
-Longer doesn’t always mean better, but precise counts. Concise, semantically efficient captions describing the subject, action, environment, and lighting outperformed both overly brief and overly flowery ones.
+**Longer doesn’t always mean better, but precise counts.** Concise, semantically efficient captions describing the subject, action, environment, and lighting outperformed both overly brief and overly flowery ones.
 
-Generative AI is a strong ally. Using tools like Gemini to create captions often matched or exceeded our manual attempts, showing that AI can understand visual semantics surprisingly well.
+**Generative AI is a strong ally.** Using tools like Gemini to create captions often matched or exceeded our manual attempts, showing that AI can understand visual semantics surprisingly well.
 
-There’s a ceiling. Even our best-engineered captions reached only around 0.345. This demonstrates the modality gap: CLIP can measure visual similarity but can’t fully capture human perception or the emotional “story” of an image.
+**There’s a ceiling.** Even our best-engineered captions reached only around 0.345. This demonstrates the modality gap: CLIP can measure visual similarity but can’t fully capture human perception or the emotional “story” of an image.
 
-Context and composition are key. Captions that clearly reflected relationships between objects, the environment, and light consistently did better than those that focused on mood or abstract concepts.
+**Context and composition are key.** Captions that clearly reflected relationships between objects, the environment, and light consistently did better than those that focused on mood or abstract concepts.
 
 ### Conclusion — Applications & Future Directions
 
