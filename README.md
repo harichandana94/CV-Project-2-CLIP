@@ -36,6 +36,10 @@ The next image was a calm black-and-white picture of a dog sitting against a whi
 I thought maybe adding more detail would help, so I tried things like “black-and-white dog,” “studio portrait,” and “dog on white background.” The scores went up a little, but not much. It felt like CLIP was happy with simple and direct descriptions.
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/0a1845cf-e750-4757-a675-978b30bf0cec" />
+  <p align="center">
+  <a href="https://images.pexels.com/photos/825947/pexels-photo-825947.jpeg">Image Link</a>
+</p>
+
 
 
 
@@ -51,6 +55,10 @@ The third image looked like something out of a dream a foggy forest where the tr
 When I moved to captions, “A photo of a foggy” (0.2957) sounded awkward but still got a slightly higher score, which was funny because it wasn’t even a complete phrase. It showed how literal CLIP can be sometimes it doesn’t care about grammar as long as the keywords match the image.
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/1fc5f1f8-b793-43f2-aefe-06c22088dc5b" />
+  <p align="center">
+  <a href="https://images.pexels.com/photos/34044163/pexels-photo-34044163.jpeg">Image Link</a>
+</p>
+
 
 
 
@@ -65,8 +73,9 @@ The fourth image was a small white puppy drawn in a cute cartoon style. I starte
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/eca82ef4-88ec-4acd-940a-c8a4308a5d79" />
 </p>
-                    
-
+ <p align="center">
+  <a href="https://live.staticflickr.com/840/43380549381_004601c7ac_h.jpg">Image Link</a>
+</p>
 
 Finally, I wrote:
 
@@ -78,6 +87,9 @@ That caption scored 0.3457, the highest for this image. It made me realize CLIP 
 The last image showed a slightly messy hotel room two unmade beds, an ironing board, and soft light coming from the window. I started with “beds” (0.2825), which was fine but didn’t really describe the whole scene. Then I tried “bedroom” (0.2966), which felt closer and scored a bit higher.
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/e3bfa01f-7f8d-4721-abaf-69305e4db8e4" />
+</p>
+ <p align="center">
+  <a href="https://live.staticflickr.com/2404/2020522557_d1aa0a1066_k.jpg">Image Link</a>
 </p>
 
 Finally, I wrote a more complete caption:
