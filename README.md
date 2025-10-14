@@ -1,12 +1,11 @@
-# My CLIP-Challange
+# My CLIP-Challange When AI Sees Differently Than We Do
 
 ## The Spark of Curiosity
 
-It all started with a simple challenge: could we find the perfect words that make an AI see an image the way we do?
+The Day We Started Speaking CLIP's Language
+It began with what seemed like a straightforward task: find the perfect words that make an AI understand images the way humans do. Little did we know we were about to become translators between human perception and machine vision.
 
-Armed with coffee, curiosity, and five random images, our team set out to test CLIP, OpenAI’s vision-language model that claims to understand both pictures and text. The goal sounded simple enough: find the words or captions that get the highest similarity scores between image and text embeddings.
-
-But as soon as we started, it became clear: CLIP has opinions. It doesn’t just look at an image and say, “Oh, that’s a cat.” It weighs every detail—tone, phrasing, and even how “human” your description sounds.
+Armed with coffee and curiosity, our team embarked on a journey with CLIP, OpenAI's vision-language model that promised to bridge the gap between pixels and words. The mission sounded simple: find text descriptions that achieve the highest similarity scores with five given images. But as we quickly discovered, CLIP doesn't just see images—it interprets them through a lens of patterns, training data, and mathematical relationships that often surprised us.
 
 ## The Early Stages and Where the Fun Began
 Our early attempts were rough. One word felt too vague, another too specific. Sometimes we nailed it, other times CLIP stubbornly disagreed. We quickly realized that this wasn’t just a matter of picking obvious words; we were trying to speak the model’s language.
