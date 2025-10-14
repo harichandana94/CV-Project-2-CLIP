@@ -124,18 +124,16 @@ We tested 14 different captions, from simple descriptions like "a deer in a libr
 
 The winner surprised us in its simplicity: "a stag standing in a sunlit, overgrown library" Score: 0.3451
 
-
-
-
 This progression allowed us to examine how caption complexity affects CLIP’s embedding alignment and identify the balance point between descriptiveness and semantic precision.
 
-Why it worked:
+CLIP revealed its preferences through this optimal pairing:
 
-- Semantic efficiency: the caption contained exactly four semantic components: subject (stag), action (standing), lighting (sunlit), environment (overgrown library)
+- Concrete beats abstract: "Sunlit" and "overgrown" outperformed "majestic" or "cathedral-like"
+- Action matters: Including "standing" helped more than static descriptions
+- Efficiency wins: Four clear elements worked better than complex phrasing
+- Visual precision: Environment details ("overgrown library") proved crucial
 
-- Adjective selectivity: CLIP favored concrete visual adjectives (“sunlit,” “overgrown”) over abstract ones (“majestic,” “cathedral-like”).
 
-- Compositional hierarchy: the model prioritized subject + environment relationships above mood or stylistic tone.
 
 ### Technical Insights: Understanding CLIP’s Architectural Biases
 
