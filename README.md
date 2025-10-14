@@ -101,21 +101,10 @@ That one gave me the best score 0.3347. It showed that CLIP performs best when t
 
 ## Part 2: The Ultimate Challenge - Creating Magic and Testing CLIP's Limits
 
-Building upon our systematic analysis of the five assignment images, we moved into the project’s culminating phase: designing and testing an optimal image–caption pair to push CLIP’s similarity scoring to its limits.
-This was both a creative and a technical pursuit, could we engineer a pairing that achieved unprecedented alignment while preserving artistic integrity?
+After uncovering CLIP's patterns with the five assignment images, we designed our own ultimate challenge: creating an image-caption pair from scratch that would achieve the highest possible similarity score. This was our chance to apply everything we have learned about how CLIP sees the world.
 
-### The Generative Experiment
+Rather than using existing imagery, we adopted a generative approach. We crafted a detailed scene description and used Gemini AI to bring it to life "a majestic stag standing in an abandoned library reclaimed by nature, with sunbeams filtering through broken windows.The mood is serene, melancholic, and awe-inspiring."
 
-Rather than using existing imagery, we adopted a generative approach.
-Using Gemini AI, we crafted a detailed text-to-image prompt designed to test CLIP’s ability to interpret complex, cinematic scenes:
-
-“Photorealistic, cinematic wide shot of a vast, abandoned Victorian library partially reclaimed by nature.
-Massive arched windows are shattered, letting golden-hour sunbeams and ivy spill inside.
-A lone stag stands majestically in the center aisle, its antlers silhouetted by a dusty ray of light.
-The mood is serene, melancholic, and awe-inspiring.”
-
-The generated image exceeded our expectations — a haunting tableau of architectural decay and natural reclamation.
-It provided an ideal test case for evaluating CLIP’s multimodal understanding: could the model connect this deeply atmospheric visual to equally rich textual descriptions?
 ### Caption Framework & Evaluation
 
 We developed a structured framework of 14 candidate captions, arranged along a descriptive gradient:
