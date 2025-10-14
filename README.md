@@ -17,7 +17,12 @@ After some trial and error, we discovered patterns in how it scored captions. In
 
 
 ### Image 1: The Sunset That Spoke in Color
-The first image showed a warm countryside sunset the sky glowing orange, a single tree standing in silhouette, and a small flock of birds flying home. I started with the simple word “sunset” (0.2656) short, accurate, but not too exciting for CLIP. Then I tried “A photo of a sunset” (0.2788), which did slightly better, proving the model likes clear, structured phrases.
+I started with what I thought would be easy: a warm countryside sunset, a silhouetted tree, and birds flying across the orange sky. “Sunset,” I typed. Score: 0.2656.
+
+Not bad… but not thrilling either. We tried “A photo of a sunset,” nudging the score slightly to 0.2788. Then we got ambitious:
+
+“An image of an orange sunset with a silhouetted tree with a flock of birds.”
+
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/718165fe-e231-4e8f-8d60-57c90bfadc32" />
 </p>
@@ -25,31 +30,27 @@ The first image showed a warm countryside sunset the sky glowing orange, a singl
   <a href="https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg">Image Link</a>
 </p>
 
+Boom — 0.3608. Color, composition, and movement suddenly mattered. CLIP rewarded detail, and we were hooked.
 
-Finally, I added more description to capture the full scene: 
 
-“An image of an orange sunset with a silhouetted tree with a flock of birds.”
-
-That caption reached the highest score 0.3608. It showed me that CLIP connects better when I include details like color and movement.
 
 ### Image 2: The Portrait That Rewarded Simplicity
-The next image was a calm black-and-white picture of a dog sitting against a white background, looking straight into the camera. I started off with the word “dog” (0.2827) pretty basic, but it actually worked better than I expected. Then I tried changing it to “puppy,” “hound,” and “pitbull,” thinking being specific might help, but the scores barely changed. Even “portrait” didn’t make much difference.
+Next came a calm black-and-white photo of a dog sitting against a white background. I began with “dog” (0.2827)—simple, direct, and surprisingly effective. We tried “puppy,” “hound,” and “pitbull,” thinking specificity might help, but the scores barely budged. Even “portrait” didn’t move the needle much.
 
-I thought maybe adding more detail would help, so I tried things like “black-and-white dog,” “studio portrait,” and “dog on white background.” The scores went up a little, but not much. It felt like CLIP was happy with simple and direct descriptions.
+Adding details like “black-and-white dog,” “studio portrait,” and “dog on white background” nudged the score up slightly, but not much. CLIP seemed happy with clarity over flourish.
+
+Finally, the longer caption:
+
+
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/0a1845cf-e750-4757-a675-978b30bf0cec" />
   <p align="center">
   <a href="https://images.pexels.com/photos/825947/pexels-photo-825947.jpeg">Image Link</a>
 </p>
 
-
-
-
-Finally, I tested a longer caption:
-
 “An image of a studio portrait of a dog on a white background, high-key lighting.”
 
-That one finally worked 0.3486, my best score for this image. I learned that CLIP actually prefers clear and straightforward captions.
+Score: 0.3486. Clear, structured captions win. Lesson learned.
 
 ### Image 3: The Forest That Confused and Surprised Me
 The third image looked like something out of a dream a foggy forest where the trees faded into the mist. I began with the word “mist” (0.2688), which felt right for the mood. Then I tried a few others like “forest,” “fog,” and “woods,” but none of them really beat that first choice.
