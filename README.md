@@ -37,6 +37,10 @@ I thought maybe adding more detail would help, so I tried things like “black-a
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/0a1845cf-e750-4757-a675-978b30bf0cec" />
 </p>
+<p align="center">
+  <img src="https://images.pexels.com/photos/825947/pexels-photo-825947.jpeg" alt="Image" />
+</p>
+
 
 Finally, I tested a longer caption:
 
@@ -51,6 +55,10 @@ When I moved to captions, “A photo of a foggy” (0.2957) sounded awkward but 
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/1fc5f1f8-b793-43f2-aefe-06c22088dc5b" />
 </p>
+<p align="center">
+  <img src="https://images.pexels.com/photos/34044163/pexels-photo-34044163.jpeg" alt="Image" />
+</p>
+
 
 Then came the real surprise. The best caption turned out to be:
 
@@ -62,6 +70,9 @@ Even though there were obviously no beds in the picture, this caption scored the
 The fourth image was a small white puppy drawn in a cute cartoon style. I started with “dog” (0.2537) not bad, but it didn’t really capture the playful look. Then I tried words like “cartoon” and “illustration,” and CLIP responded better, realizing it wasn’t a real photo.
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/eca82ef4-88ec-4acd-940a-c8a4308a5d79" />
+</p>
+<p align="center">
+  <img src="https://live.staticflickr.com/840/43380549381_004601c7ac_h.jpg" alt="Image 3" width="500"/>
 </p>
                             
 
