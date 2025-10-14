@@ -131,6 +131,11 @@ We developed a structured framework of 14 candidate captions, arranged along a d
 | *Highly detailed*        | “a stag lit by golden sunbeams in a library filled with books” |
 | *Atmospheric*            | “a majestic stag inside a cathedral-like library”              |
 
+
+<p align="center">
+  <img width="500" height="500" alt="" src="mygeneratedimage.png" />
+</p>
+
 This progression allowed us to examine how caption complexity affects CLIP’s embedding alignment and identify the balance point between descriptiveness and semantic precision.
 
 ### The Winning Pair
