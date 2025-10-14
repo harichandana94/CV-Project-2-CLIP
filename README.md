@@ -2,13 +2,11 @@
 
 ## The Spark of Curiosity
 
-The Day We Started Speaking CLIP's Language
 It began with what seemed like a straightforward task: find the perfect words that make an AI understand images the way humans do. Little did we know we were about to become translators between human perception and machine vision.
 
-Armed with curiosity and a sense of wonder, our team embarked on a journey with CLIP, OpenAI's vision-language model that promised to bridge the gap between pixels and words. The mission sounded simple: find text descriptions that achieve the highest similarity scores with five given images. As we quickly discovered, CLIP doesn’t just see images, it interprets them through patterns, training data, and mathematical relationships, weighing every detail from tone to phrasing to how “human” a description sounds.
+Armed with curiosity and a sense of wonder, our team embarked on a journey with CLIP, OpenAI's vision-language model that promised to bridge the gap between pixels and words. The mission sounded simple: find text descriptions that achieve the highest similarity scores with five given images. As we quickly discovered, CLIP doesn't just see images, it interprets them through patterns, training data, and mathematical relationships, weighing every detail from tone to phrasing.
 
 ## Learning to Speak CLIP's Language
-
 Our early experiments revealed CLIP's unique personality. Simple word choices often fell flat, while subtle phrasing changes made all the difference. We discovered that adding "a photo of" before nouns, including specific colors, and describing spatial relationships consistently boosted scores.
 
 Abstract or emotional language rarely helped, CLIP preferred concrete, visual details. What began as technical testing quickly became a fascinating translation exercise between human intuition and AI pattern recognition. Each image became a puzzle where we had to think like the model to find the perfect caption key.
