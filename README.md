@@ -13,7 +13,7 @@ Our early experiments revealed CLIP's unique personality. Simple word choices of
 
 Abstract or emotional language rarely helped, CLIP preferred concrete, visual details. What began as technical testing quickly became a fascinating translation exercise between human intuition and AI pattern recognition. Each image became a puzzle where we had to think like the model to find the perfect caption key.
 
-### Image 1: The Sunset That Spoke in Color
+### The Sunset That Spoke in Color
 I started with what I thought would be easy: a warm countryside sunset, a silhouetted tree, and birds flying across the orange sky. “Sunset,” I typed. Score: 0.2656.
 
 Not bad… but not thrilling either. We tried “A photo of a sunset,” nudging the score slightly to 0.2788. Then we got ambitious:
@@ -31,7 +31,7 @@ Boom — 0.3608. Color, composition, and movement suddenly mattered. CLIP reward
 
 
 
-### Image 2: The Portrait That Rewarded Simplicity
+### The Portrait That Rewarded Simplicity
 Next came a calm black-and-white photo of a dog sitting against a white background. I began with “dog” (0.2827)—simple, direct, and surprisingly effective. We tried “puppy,” “hound,” and “pitbull,” thinking specificity might help, but the scores barely budged. Even “portrait” didn’t move the needle much.
 
 Adding details like “black-and-white dog,” “studio portrait,” and “dog on white background” nudged the score up slightly, but not much. CLIP seemed happy with clarity over flourish.
@@ -49,7 +49,7 @@ Finally, the longer caption:
 
 Score: 0.3486. Clear, structured captions win. Lesson learned.
 
-### Image 3: The Forest That Confused and Surprised Me
+### The Forest That Confused and Surprised Me
 The third image looked like something out of a dream a foggy forest where the trees faded into the mist. I began with the word “mist” (0.2688), which felt right for the mood. Then I tried a few others like “forest,” “fog,” and “woods,” but none of them really beat that first choice.
 
 When I moved to captions, “A photo of a foggy” (0.2957) sounded awkward but still got a slightly higher score, which was funny because it wasn’t even a complete phrase. It showed how literal CLIP can be sometimes it doesn’t care about grammar as long as the keywords match the image.
@@ -68,7 +68,7 @@ Then came the real surprise. The best caption turned out to be:
 
 Even though there were obviously no beds in the picture, this caption scored the highest 0.3662. That’s when I realized CLIP doesn’t always focus on logical accuracy. It looks for visual and contextual overlap in the embeddings, even if the sentence doesn’t make sense.
 
-### Image 4: The Puppy That Taught Me About Style
+### The Puppy That Taught Me About Style
 The fourth image was a small white puppy drawn in a cute cartoon style. I started with “dog” (0.2537) not bad, but it didn’t really capture the playful look. Then I tried words like “cartoon” and “illustration,” and CLIP responded better, realizing it wasn’t a real photo.
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/eca82ef4-88ec-4acd-940a-c8a4308a5d79" />
@@ -83,7 +83,7 @@ Finally, I wrote:
 
 That caption scored 0.3457, the highest for this image. It made me realize CLIP doesn’t just care about what’s in the picture it also pays attention to the style it’s shown in.
 
-### Image 5: The Room That Valued Realism
+### The Room That Valued Realism
 The last image showed a slightly messy hotel room two unmade beds, an ironing board, and soft light coming from the window. I started with “beds” (0.2825), which was fine but didn’t really describe the whole scene. Then I tried “bedroom” (0.2966), which felt closer and scored a bit higher.
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/e3bfa01f-7f8d-4721-abaf-69305e4db8e4" />
