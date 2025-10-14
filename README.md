@@ -1,5 +1,6 @@
 # My CLIP-Challange
 
+## The Spark of Curiosity
 It all started with a simple challenge: could we find the perfect words that make an AI see an image the way we do?
 
 Armed with coffee, curiosity, and five random images, our team set out to test CLIP, OpenAI’s vision-language model that claims to understand both pictures and text. The goal sounded simple enough — find the words or captions that get the highest similarity scores between image and text embeddings.
