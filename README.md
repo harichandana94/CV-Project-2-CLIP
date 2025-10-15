@@ -1,6 +1,6 @@
-# My CLIP-Challange When AI Sees Differently Than We Do
+# My CLIP-Challenge When AI Sees Differently Than We Do
 
-Intro to Computer Vision_6527 Project 2
+Intro to Computer Vision (CSCI 6527)
 
 ## Authors
 Harichandana Samudrala (G48786002)
