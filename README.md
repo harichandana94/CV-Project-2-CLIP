@@ -1,7 +1,6 @@
 # My CLIP-Challange When AI Sees Differently Than We Do
 
-## Intro to Computer Vision
-Project 2
+## Intro to Computer Vision Project 2
 
 ## Authors
 Harichandana Samudrala
