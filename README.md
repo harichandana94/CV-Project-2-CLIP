@@ -156,5 +156,9 @@ The 0.345 ceiling we consistently encountered represents more than just a number
 
 As we continue to advance multimodal AI, projects like ours highlight the importance of testing not just what models can do, but how they do it, and where the boundaries of their understanding lie. The journey toward AI that sees the world as we do continues, and each experiment brings us one step closer.
 
+### Run This Notebook
+
+You can open and run this project directly in [**Colab Notebook**](https://colab.research.google.com/drive/1LOOCEXAc1Vl8TExVk2VUnG6wTBetrnhc?usp=sharing).
+
 
 
