@@ -25,9 +25,7 @@ Not bad… but not thrilling either. We tried “A photo of a sunset,” nudging
   <a href="https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg">Image Link</a>
 </p>
 
-Boom — 0.3608. Color, composition, and movement suddenly mattered. CLIP rewarded detail, and we were surprised.
-
-
+Boom, 0.3608. Color, composition, and movement suddenly mattered. CLIP rewarded detail, and we were surprised.
 
 ### The Portrait That Rewarded Simplicity
 Next came a calm black-and-white photo of a dog sitting against a white background. I began with “dog” (0.2827)—simple, direct, and surprisingly effective. We tried “puppy,” “hound,” and “pitbull,” thinking specificity might help, but the scores barely budged. Even “portrait” didn’t move the needle much.
@@ -45,12 +43,12 @@ Finally, the longer caption:
 
 “An image of a studio portrait of a dog on a white background, high-key lighting.”
 
-Score: 0.3486. Clear, structured captions win. Lesson learned.
+Score: 0.3486. Clear, structured captions win.
 
 ### The Forest That Confused and Surprised Me
 A foggy forest, trees fading into mist. I started with “mist” (0.2688) and tried “forest,” “fog,” and “woods,” but none surpassed it.
 
-“A photo of a foggy…” (0.2957) — awkward, incomplete, but slightly better. CLIP doesn’t care about grammar; keywords matter more than elegance.
+“A photo of a foggy…” (0.2957), awkward, incomplete, but slightly better. CLIP doesn’t care about grammar; keywords matter more than elegance.
 
 
 <p align="center">
@@ -75,7 +73,7 @@ The fourth image was a small white puppy drawn in a cute cartoon style. I starte
   <a href="https://live.staticflickr.com/840/43380549381_004601c7ac_h.jpg">Image Link</a>
 </p>
 
-Finally, I wrote:
+Finally, 
 
 “A photograph of a small white dog cartoon style.”
 
@@ -90,7 +88,7 @@ The last image showed a slightly messy hotel room two unmade beds, an ironing bo
   <a href="https://live.staticflickr.com/2404/2020522557_d1aa0a1066_k.jpg">Image Link</a>
 </p>
 
-Finally, I wrote a more complete caption:
+Finally,
 
 “A photograph of a hotel room with two unmade beds facing the camera.”
 
