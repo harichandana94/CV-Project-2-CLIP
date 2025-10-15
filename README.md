@@ -111,82 +111,50 @@ Rather than using existing imagery, we adopted a generative approach. We crafted
 
 ### The Search for Perfect Words
 
-We tested 14 different captions, from simple descriptions like "a deer in a library" to poetic versions like "a stag lit by golden sunbeams in a library filled with books." Each caption represented a different approach to describing the same complex scene.
+We tested 14 captions across a spectrum:
 
-| Type                     | Example                                                        |
+| Approach                 | Example                                                        |
 | ------------------------ | -------------------------------------------------------------- |
 | *Minimalist*             | “a deer in a library”                                          |
 | *Moderately descriptive* | “a stag in an old library with vines and bookshelves”          |
 | *Highly detailed*        | “a stag lit by golden sunbeams in a library filled with books” |
 | *Atmospheric*            | “a majestic stag inside a cathedral-like library”              |
 
-The winner surprised us in its simplicity: "a stag standing in a sunlit, overgrown library" Score: 0.3451
+The winner surprised us with its clarity: "a stag standing in a sunlit, overgrown library" with a score of 0.3451.
 
-This progression allowed us to examine how caption complexity affects CLIP’s embedding alignment and identify the balance point between descriptiveness and semantic precision.
+## What the Results Revealed
+CLIP's preferences became crystal clear:
 
-CLIP revealed its preferences through this optimal pairing:
+- Concrete over abstract: "Sunlit" and "overgrown" beat "majestic" or "cathedral-like"
 
-- Concrete beats abstract: "Sunlit" and "overgrown" outperformed "majestic" or "cathedral-like"
-- Action matters: Including "standing" helped more than static descriptions
-- Efficiency wins: Four clear elements worked better than complex phrasing
-- Visual precision: Environment details ("overgrown library") proved crucial
+- Action matters: "Standing" provided valuable spatial information
 
+- Semantic efficiency: Four clear elements worked better than complex phrasing
 
+- Visual precision: Environment details proved crucial for alignment
 
-### Technical Insights: Understanding CLIP’s Architectural Biases
-
-Our results offered valuable evidence about CLIP’s internal weighting and limitations:
-
-- Visual Primacy: CLIP relies heavily on visually verifiable features, not narrative or emotion.
-
-- Compositional Understanding: the model captured subject–action–context structure with notable precision.
-
-- Adjective Sensitivity: specific, image-grounded modifiers significantly increased similarity scores.
-
-- Emotional Blindness: words expressing mood or symbolism contributed little to alignment.
-
-### The Modality Gap in Practice
-
-This experiment vividly illustrated the modality gap — the representational divide between human perception and machine reasoning.
-While humans perceived the image as symbolic and emotionally rich, CLIP operated strictly on feature detection, rewarding what it could see rather than what it could feel.
-
-Even with an engineered, semantically perfect pairing, our top similarity score of 0.3451 remained far from 1.0, underscoring the persistent limitations of current vision-language models.
-
+## The Human-AI Divide
+This experiment made the gap between human and machine perception tangible. Where we saw poetry and symbolism—nature reclaiming human creation, beauty in decay, CLIP processed patterns and features. Our top score of 0.3451, while impressive, showed there's still substantial distance between how AI processes images and how humans experience them.
 
 ### Our Learnings
 
 After diving deep into CLIP with five very different images and pushing it to its limits, here’s what stood out to us:
 
-**CLIP is extremely literal.** It rewarded captions that described exactly what was visible in the image. Poetic phrasing, mood words, or abstract ideas didn’t improve scores.
+- Literal Processing: CLIP excels at matching concrete visual elements but struggles with abstract concepts or emotional nuance
 
-**Details matter, but the right ones.** Adding color, lighting, and spatial relationships consistently boosted similarity, while extra adjectives that weren’t visually grounded often didn’t help.
+- Style Awareness: The model distinguishes between photographic and artistic content, rewarding accurate medium descriptions
 
-**Style influences perception.** CLIP can tell the difference between a photo, illustration, or cartoon, and captions that matched the image’s style scored higher.
+- Compositional Intelligence: Spatial relationships and environmental context significantly impact similarity scores
 
-**Longer doesn’t always mean better, but precise counts.** Concise, semantically efficient captions describing the subject, action, environment, and lighting outperformed both overly brief and overly flowery ones.
+- Statistical Nature: Word co-occurrence patterns sometimes override logical scene understanding
 
-**Generative AI is a strong ally.** Using tools like Gemini to create captions often matched or exceeded our manual attempts, showing that AI can understand visual semantics surprisingly well.
+### Conclusion: The Path Forward
 
-**There’s a ceiling.** Even our best-engineered captions reached only around 0.345. This demonstrates the modality gap: CLIP can measure visual similarity but can’t fully capture human perception or the emotional “story” of an image.
+Our CLIP challenge revealed both the impressive capabilities and inherent limitations of current vision-language models. While CLIP can expertly match images to concrete descriptions, it misses the narrative and emotional layers that make visual content meaningful to people.
 
-**Context and composition are key.** Captions that clearly reflected relationships between objects, the environment, and light consistently did better than those that focused on mood or abstract concepts.
+The 0.345 ceiling we consistently encountered represents more than just a number, it symbolizes the fundamental challenge of creating AI that truly understands rather than just pattern-matches. The future of AI vision lies in bridging this gap, developing systems that don't just recognize what's in an image, but understand what it means.
 
-### Conclusion — Applications & Future Directions
-
-Our findings point to practical strategies for improving real-world CLIP performance:
-
-- Caption Optimization: use concise, visually grounded descriptions; avoid subjective emotion words.
-
-- Content Strategy: for tasks like image retrieval or classification, prioritize semantic efficiency over poetic language.
-
-- Evaluation Framework: our method provides a replicable pipeline for assessing image–text alignment across domains.
-
-Ultimately, our project showed that CLIP excels at literal scene comprehension, yet struggles with emotional or symbolic nuance.
-Bridging this gap will require future models that integrate visual grounding with affective and contextual reasoning, enabling AI systems to perceive images not only as patterns of pixels — but as stories worth understanding.
-
-
-
-
+As we continue to advance multimodal AI, projects like ours highlight the importance of testing not just what models can do, but how they do it, and where the boundaries of their understanding lie. The journey toward AI that sees the world as we do continues, and each experiment brings us one step closer.
 
 
 
