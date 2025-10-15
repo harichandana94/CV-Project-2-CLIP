@@ -1,5 +1,14 @@
 # My CLIP-Challange When AI Sees Differently Than We Do
 
+## Intro to Computer Vision
+Project 2
+
+## Authors
+Harichandana Samudrala
+
+## Professor
+Robert Pless
+
 ## The Spark of Curiosity
 
 It began with what seemed like a straightforward task: find the perfect words that make an AI understand images the way humans do. Little did we know we were about to become translators between human perception and machine vision.
