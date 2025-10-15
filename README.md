@@ -4,7 +4,9 @@
 Project 2
 
 ## Authors
-Harichandana Samudrala
+Harichandana Samudrala (G48786002)
+Veditha Reddy Avuthu (G43696437)
+Devi Annamreddy (G42683473)
 
 ## Professor
 Robert Pless
