@@ -20,9 +20,9 @@ Working with CLIP felt like learning a new dialect between vision and language. 
 Abstract or emotional language rarely helped, CLIP preferred concrete, visual details. What began as technical testing quickly became a fascinating translation exercise between human intuition and AI pattern recognition. Each image became a puzzle where we had to think like the model to find the perfect caption key.
 
 ### The Sunset That Spoke in Color
-Started with what we thought would be easy: a warm countryside sunset, a silhouetted tree, and birds flying across the orange sky. “Sunset,” we typed. Score: 0.2656.
+Started with what we thought would be easy: a warm countryside sunset, a silhouetted tree, and birds flying across the orange sky. “Sunset,” we typed. Score: 0.2658.
 
-Not bad… but not thrilling either. We tried “A photo of a sunset,” nudging the score slightly to 0.2788. Then we got ambitious:
+Not bad… but not thrilling either. We tried “A photo of a sunset,” nudging the score slightly to 0.2787. Then we got ambitious:
 
 “An image of an orange sunset with a silhouetted tree with a flock of birds.”
 
@@ -33,10 +33,10 @@ Not bad… but not thrilling either. We tried “A photo of a sunset,” nudging
   <a href="https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg">Image Link</a>
 </p>
 
-Boom, 0.3608. Color, composition, and movement suddenly mattered. CLIP rewarded detail, and we were surprised.
+Boom, 0.3610. Color, composition, and movement suddenly mattered. CLIP rewarded detail.
 
 ### The Portrait That Rewarded Simplicity
-Next came a calm black-and-white photo of a dog sitting against a white background. we began with “dog” (0.2827)—simple, direct, and surprisingly effective. We tried “puppy,” “hound,” and “pitbull,” thinking specificity might help, but the scores barely budged. Even “portrait” didn’t move the needle much.
+Next came a calm black-and-white photo of a dog sitting against a white background. We began with “dog” (0.2825)—simple, direct, and surprisingly effective. We tried “puppy,” “hound,” and “pitbull,” thinking specificity might help, but the scores barely budged. Even “portrait” didn’t move the needle much.
 
 Adding details like “black-and-white dog,” “studio portrait,” and “dog on white background” nudged the score up slightly, but not much. CLIP seemed happy with clarity over flourish.
 
@@ -54,9 +54,9 @@ Finally, the longer caption:
 Score: 0.3486. Clear, structured captions win.
 
 ### The Forest That Confused and Surprised Us
-A foggy forest, trees fading into mist. I started with “mist” (0.2688) and tried “forest,” “fog,” and “woods,” but none surpassed it.
+A foggy forest, trees fading into mist. We started with “mist” (0.2688) and tried “forest,” “fog,” and “woods,” but none surpassed it.
 
-“A photo of a foggy…” (0.2957), awkward, incomplete, but slightly better. CLIP doesn’t care about grammar; keywords matter more than elegance.
+“A photo of a foggy…” (0.2956), awkward, incomplete, but slightly better. CLIP doesn’t care about grammar; keywords matter more than elegance.
 
 
 <p align="center">
@@ -69,11 +69,11 @@ Then the shocker:
 
 “A photograph of a foggy forest with two unmade beds in autumn.”
 
-Score: 0.3662. There were no beds! CLIP was rewarding semantic overlap in embeddings, not literal correctness. That’s when we truly grasped its quirks.
+Score: 0.3659. There were no beds! CLIP was rewarding semantic overlap in embeddings, not literal correctness. That’s when we truly grasped its quirks.
 
 
 ### The Puppy That Taught Us About Style
-The fourth image was a small white puppy drawn in a cute cartoon style. I started with “dog” (0.2537) not bad, but it didn’t really capture the playful look. Then I tried words like “cartoon” and “illustration,” and CLIP responded better, realizing it wasn’t a real photo.
+The fourth image was a small white puppy drawn in a cute cartoon style. We started with “dog” (0.2535) not bad, but it didn’t really capture the playful look. Then we tried words like “cartoon” and “illustration,” and CLIP responded better, realizing it wasn’t a real photo.
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/eca82ef4-88ec-4acd-940a-c8a4308a5d79" />
 </p>
@@ -85,10 +85,10 @@ Finally,
 
 “A photograph of a small white dog cartoon style.”
 
-That caption scored 0.3457, the highest for this image. It made us realize CLIP doesn’t just care about what’s in the picture it also pays attention to the style it’s shown in.
+That caption scored 0.3458, the highest for this image. It made us realize CLIP doesn’t just care about what’s in the picture it also pays attention to the style it’s shown in.
 
 ### The Room That Valued Realism
-The last image showed a slightly messy hotel room two unmade beds, an ironing board, and soft light coming from the window. I started with “beds” (0.2825), which was fine but didn’t really describe the whole scene. Then I tried “bedroom” (0.2966), which felt closer and scored a bit higher.
+The last image showed a slightly messy hotel room two unmade beds, an ironing board, and soft light coming from the window. We started with “beds” (0.2826), which was fine but didn’t really describe the whole scene. Then tried “bedroom” (0.2968), which felt closer and scored a bit higher.
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/e3bfa01f-7f8d-4721-abaf-69305e4db8e4" />
 </p>
@@ -126,7 +126,7 @@ We tested 14 captions across a spectrum:
 | *Highly detailed*        | “a stag lit by golden sunbeams in a library filled with books” |
 | *Atmospheric*            | “a majestic stag inside a cathedral-like library”              |
 
-The winner surprised us with its clarity: "a stag standing in a sunlit, overgrown library" with a score of 0.3451.
+The winner surprised us with its clarity: "a stag standing in a sunlit, overgrown library" with a score of 0.4243.
 
 ## What the Results Revealed
 CLIP's preferences became crystal clear:
