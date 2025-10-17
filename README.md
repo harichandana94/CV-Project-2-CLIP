@@ -142,7 +142,7 @@ CLIP's preferences became crystal clear:
 ## The Human-AI Divide
 This experiment made the gap between human and machine perception tangible. Where we saw poetry and symbolism, nature reclaiming human creation, beauty in decay, CLIP processed patterns and features. Our top score of 0.4243, while impressive, showed there's still substantial distance between how AI processes images and how humans experience them.
 
-### Our Learnings
+## Our Learnings
 
 After diving deep into CLIP with five very different images and pushing it to its limits, here’s what stood out to us:
 
