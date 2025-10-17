@@ -53,7 +53,7 @@ Finally, the longer caption:
 
 Score: 0.3486. Clear, structured captions win.
 
-### The Forest That Confused and Surprised Me
+### The Forest That Confused and Surprised Us
 A foggy forest, trees fading into mist. I started with “mist” (0.2688) and tried “forest,” “fog,” and “woods,” but none surpassed it.
 
 “A photo of a foggy…” (0.2957), awkward, incomplete, but slightly better. CLIP doesn’t care about grammar; keywords matter more than elegance.
@@ -72,7 +72,7 @@ Then the shocker:
 Score: 0.3662. There were no beds! CLIP was rewarding semantic overlap in embeddings, not literal correctness. That’s when we truly grasped its quirks.
 
 
-### The Puppy That Taught Me About Style
+### The Puppy That Taught Us About Style
 The fourth image was a small white puppy drawn in a cute cartoon style. I started with “dog” (0.2537) not bad, but it didn’t really capture the playful look. Then I tried words like “cartoon” and “illustration,” and CLIP responded better, realizing it wasn’t a real photo.
 <p align="center">
   <img width="500" height="500" alt="Screenshot 2025-10-14 at 3 07 47 PM" src="https://github.com/user-attachments/assets/eca82ef4-88ec-4acd-940a-c8a4308a5d79" />
@@ -85,7 +85,7 @@ Finally,
 
 “A photograph of a small white dog cartoon style.”
 
-That caption scored 0.3457, the highest for this image. It made me realize CLIP doesn’t just care about what’s in the picture it also pays attention to the style it’s shown in.
+That caption scored 0.3457, the highest for this image. It made us realize CLIP doesn’t just care about what’s in the picture it also pays attention to the style it’s shown in.
 
 ### The Room That Valued Realism
 The last image showed a slightly messy hotel room two unmade beds, an ironing board, and soft light coming from the window. I started with “beds” (0.2825), which was fine but didn’t really describe the whole scene. Then I tried “bedroom” (0.2966), which felt closer and scored a bit higher.
@@ -100,7 +100,7 @@ Finally,
 
 “A photograph of a hotel room with two unmade beds facing the camera.”
 
-That one gave me the best score 0.3347. It showed that CLIP performs best when the caption matches what’s actually in the image. 
+That one gave us the best score 0.3347. It showed that CLIP performs best when the caption matches what’s actually in the image. 
 
 
 ## Part 2: The Ultimate Challenge - Creating Magic and Testing CLIP's Limits
