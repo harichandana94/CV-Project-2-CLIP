@@ -36,7 +36,7 @@ Not bad… but not thrilling either. We tried “A photo of a sunset,” nudging
 Boom, 0.3608. Color, composition, and movement suddenly mattered. CLIP rewarded detail, and we were surprised.
 
 ### The Portrait That Rewarded Simplicity
-Next came a calm black-and-white photo of a dog sitting against a white background. I began with “dog” (0.2827)—simple, direct, and surprisingly effective. We tried “puppy,” “hound,” and “pitbull,” thinking specificity might help, but the scores barely budged. Even “portrait” didn’t move the needle much.
+Next came a calm black-and-white photo of a dog sitting against a white background. we began with “dog” (0.2827)—simple, direct, and surprisingly effective. We tried “puppy,” “hound,” and “pitbull,” thinking specificity might help, but the scores barely budged. Even “portrait” didn’t move the needle much.
 
 Adding details like “black-and-white dog,” “studio portrait,” and “dog on white background” nudged the score up slightly, but not much. CLIP seemed happy with clarity over flourish.
 
