@@ -1,4 +1,4 @@
-# My CLIP-Challenge When AI Sees Differently Than We Do
+# My CLIP- When AI Sees Differently Than We Do
 
 Intro to Computer Vision (CSCI 6527)
 
